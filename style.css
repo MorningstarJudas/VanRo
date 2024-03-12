@@ -1,0 +1,44 @@
+
+main{
+    display: flex;
+}
+
+.navbar{
+    padding: 2rem;
+    background-color: rgb(146, 45, 45);
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+.hedson{
+    background-color: rgb(146, 45, 45);
+    min-height: 450px;
+    text-align: center;
+}
+
+.FotoDeLaDesarrolladora{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.principal{
+    padding: 3rem;
+}
+
+h1{
+    font-size: 2.5rem;
+
+}
